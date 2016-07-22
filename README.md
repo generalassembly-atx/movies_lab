@@ -34,12 +34,12 @@ Before we start building our React app, let's create a `HelloWorld` component ju
 ### Step 6: Connect to the OMDb API
 
 - With the API key we're using, you don't need an API key. Go ahead and look at the [documentation](http://omdbapi.com/) to determine the API's proper usage.
-- Give the SearchContainer's initial state a key of `movies` with a value `[]`.
-- Every time the search button is clicked, fire an AJAX call to the OMDb API and update the value of `this.state.movies` based on the response.
+- Give the SearchContainer's initial state a key of `movie` with a value `{}`.
+- Every time the search button is clicked, fire an AJAX call to the OMDb API and update the value of `this.state.movie` based on the response.
 
-### Step 7: Create MovieList and Movie components
+### Step 7: Create Movie component
 
-- Create MovieList and Movie components that render the list of movies to the page.
+- Create Movie components that render the returned movie to the page.
 
 ## Bonus
 
